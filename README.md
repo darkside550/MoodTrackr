@@ -1,3 +1,7 @@
+
+# MoodTrackr
+A simple application that tracks your daily behavior. Created with Next JS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
