@@ -8,15 +8,11 @@ export const metadata = {
 };
 
 const DashboardPage = () => {
-  const isAuthenticated = true;
-
-  let children = <Login />;
-
-  if (isAuthenticated) {
-    children = <Dashboard />;
-  }
-
-  return <Main>{children}</Main>;
+  return (
+    <Main>
+      <Dashboard />
+    </Main>
+  );
 };
 
 export default DashboardPage;

@@ -17,15 +17,20 @@ const months = {
   November: "Nov",
   December: "Dec",
 };
+
 const monthsArr = Object.keys(months);
+
 const now = new Date();
+
 const dayList = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 const fugaz = Fugaz_One({ subsets: ["latin"], weight: ["400"] });
 
 export default function Calendar(props) {
   const { demo, completeData, handleSetMood } = props;
+
   const now = new Date();
+
   const currMonth = now.getMonth();
   const [selectedMonth, setSelectMonth] = useState(Object.keys(months)[currMonth]);
   const [selectedYear, setSelectedYear] = useState(now.getFullYear());
@@ -71,12 +76,14 @@ export default function Calendar(props) {
           className='mr-auto text-indigo-400 text-lg sm:text-xl duration-200 hover:opacity-60'>
           <i className='fa-solid fa-circle-chevron-left'></i>
         </button>
+
         <p
           className={
             "text-center col-span-3 capitalized whitespace-nowrap textGradient " + fugaz.className
           }>
           {selectedMonth}, {selectedYear}
         </p>
+
         <button
           onClick={() => {
             handleIncrementMonth(+1);
