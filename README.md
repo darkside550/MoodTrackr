@@ -1,8 +1,14 @@
 
-# MoodTrackr
-A simple application that tracks your daily behavior. Created with Next JS
+# [MoodTrackr](https://mood-trackr.vercel.app/)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)  ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+
+A simple application that tracks your daily behavior. Created with Next JS, Firebase, and Tailwindcss
+
+
+![image](https://github.com/user-attachments/assets/43234fe9-cd7e-4f5d-b1e8-377b1443d261)
+
 
 ## Getting Started
 
